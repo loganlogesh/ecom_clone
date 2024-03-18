@@ -60,4 +60,21 @@
 
 7. To connect mongodb server to node.js -->
 
-just for testing
+        > First create the cluster
+            > shared 
+            > select cloud provided and region 
+            > cluster name 
+            > click create cluster
+        > Second create the collection 
+            > click create database ->> enter database name and collection name.
+            > click create 
+        > conectien a mogodb compass
+            > click I have mongodb compass
+            > copy the url and change the user name and password
+            > open the Manogodb compass and past the url 
+            > open the mongodb compass.
+
+
+
+
+
