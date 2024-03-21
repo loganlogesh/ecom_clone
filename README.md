@@ -72,8 +72,23 @@
             > click I have mongodb compass
             > copy the url and change the user name and password
             > open the Manogodb compass and past the url 
-            > open the mongodb compass.
+            > they connecting to culster.
+    
+    >>create the file called db.js 
+        > Import the mongoose { import mongoose from 'mongoose' }
+        > install the mongoose ( npm i mongoose morgan)
+        
+        > connect the database :
+            > const connectDB = async () => {
+                try {
+                    const conn = await mongoose.connect(use the .env file)
+                    console.log(`connect to mongodb Database $(conn.connection.host));
+                }catch(errot) {
+                    console.log( `Error in mongoose $(error)`.bgRed.white)
+                }
+            }
 
+            export default connectDB;
 
 
 
